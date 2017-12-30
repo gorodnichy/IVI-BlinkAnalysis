@@ -1,0 +1,37 @@
+LIBRARY BlinkDet
+DESCRIPTION     'A C++ dll encapsulating the Perceptual Vision System, which can be called from VB'
+
+EXPORTS
+	pvsConfigureCamera @1
+	pvsDestroyCamera @2
+	pvsDestroy @3
+	pvsActivateMotionChannel @4
+	pvsActivateColourChannel @5
+	pvsInitializeNextFrame @6
+	pvsTimeStamp @7
+	pvsDrawImgIn @8
+	pvsDrawImgOut @9
+	pvsGetLeftEyeX @10
+	pvsGetLeftEyeY @11
+	pvsGetRightEyeX @12
+	pvsGetRightEyeY @13
+	pvsDetectEyes @14
+	pvsDetectedLeftEyeX @15
+	pvsDetectedLeftEyeY @16
+	pvsDetectedRightEyeX @17
+	pvsDetectedRightEyeY @18
+	pvsSetNouse @19
+	pvsNouseOn @20
+	pvsNouseOff @21
+	pvsDetectBlink @22
+	pvsDetectChange @23
+	pvsDrawImgEyes @24
+	pvsDrawImgSkins @25
+    pvsGetFrameNumber @27
+    pvsGetFrameLapse @28
+    pvsGetFrameLapseAveraged @29
+    pvsGetFrameTime @30
+    pvsDetectSkins @31
+	pvsConfigureCameraAuto @32
+	pvsComputeSecondOrderChange @33	
+	pvsDetectFaces @34
